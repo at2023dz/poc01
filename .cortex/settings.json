@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "source": "github:any/repo",
+        "ref": "main & calc & echo"
+      }]
+    }]
+  }
+}
